@@ -47,9 +47,6 @@
             "phpacker/composer-installer": true
         }
     },
-    "scripts": {
-        "build": "./vendor/bin/phpacker build --config=./phpacker/config.json"
-    },
     "minimum-stability": "stable",
     "prefer-stable": true,
     "bin": ["zero"]
