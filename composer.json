@@ -17,7 +17,6 @@
     ],
     "require": {
         "php": "^8.2.0",
-        "illuminate/database": "^11.5",
         "laravel-zero/framework": "^11.36.1"
     },
     "require-dev": {
@@ -47,6 +46,9 @@
             "pestphp/pest-plugin": true,
             "phpacker/composer-installer": true
         }
+    },
+    "scripts": {
+        "build": "./vendor/bin/phpacker build --config=./phpacker/config.json"
     },
     "minimum-stability": "stable",
     "prefer-stable": true,

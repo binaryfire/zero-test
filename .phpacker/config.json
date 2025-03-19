@@ -1,0 +1,7 @@
+{
+    "src": "../builds/zero.phar",
+    "dest": "../dist",
+    "ini": "./php.ini",
+    "platform": "all",
+    "php": "8.4"
+}
